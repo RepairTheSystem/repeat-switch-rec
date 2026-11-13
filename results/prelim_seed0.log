@@ -1,0 +1,270 @@
+
+=== regime=high seed=0: events 311545, train 300062, val users 3116, test users 3074
+    [base] epoch 1  train NLL 5.5883  val Recall@10 0.4269
+    [base] epoch 2  train NLL 4.5557  val Recall@10 0.5821
+    [base] epoch 3  train NLL 4.2212  val Recall@10 0.6344
+    [base] epoch 4  train NLL 4.0373  val Recall@10 0.6649
+    [base] epoch 5  train NLL 3.9155  val Recall@10 0.6828
+    [base] epoch 6  train NLL 3.8185  val Recall@10 0.7025
+    [base] epoch 7  train NLL 3.7387  val Recall@10 0.7155
+    [base] epoch 8  train NLL 3.6714  val Recall@10 0.7307
+    [base] epoch 9  train NLL 3.6178  val Recall@10 0.7383
+    [base] epoch 10  train NLL 3.5706  val Recall@10 0.7414
+    [base] epoch 11  train NLL 3.5310  val Recall@10 0.7505
+    [base] epoch 12  train NLL 3.4953  val Recall@10 0.7581
+    [base] epoch 13  train NLL 3.4650  val Recall@10 0.7593
+    [base] epoch 14  train NLL 3.4410  val Recall@10 0.7667
+    [base] epoch 15  train NLL 3.4142  val Recall@10 0.7699
+    [base] epoch 16  train NLL 3.3943  val Recall@10 0.7724
+    [base] epoch 17  train NLL 3.3737  val Recall@10 0.7764
+    [base] epoch 18  train NLL 3.3568  val Recall@10 0.7794
+    [base] epoch 19  train NLL 3.3424  val Recall@10 0.7812
+    [base] epoch 20  train NLL 3.3257  val Recall@10 0.7822
+    [base] epoch 21  train NLL 3.3146  val Recall@10 0.7883
+    [base] epoch 22  train NLL 3.2989  val Recall@10 0.7889
+    [base] epoch 23  train NLL 3.2887  val Recall@10 0.7918
+    [base] epoch 24  train NLL 3.2776  val Recall@10 0.7893
+    [base] epoch 25  train NLL 3.2674  val Recall@10 0.7944
+    [base] epoch 26  train NLL 3.2595  val Recall@10 0.7949
+    [base] epoch 27  train NLL 3.2505  val Recall@10 0.7948
+    [base] epoch 28  train NLL 3.2393  val Recall@10 0.7968
+    [base] epoch 29  train NLL 3.2336  val Recall@10 0.8029
+    [base] epoch 30  train NLL 3.2227  val Recall@10 0.8007
+    [base] epoch 31  train NLL 3.2159  val Recall@10 0.8016
+    [base] epoch 32  train NLL 3.2083  val Recall@10 0.8055
+    [base] epoch 33  train NLL 3.1990  val Recall@10 0.8044
+    [base] epoch 34  train NLL 3.1964  val Recall@10 0.8050
+    [base] epoch 35  train NLL 3.1877  val Recall@10 0.8044
+    [switch] epoch 1  train NLL 3.6250  val Recall@10 0.8461
+    [switch] epoch 2  train NLL 3.4276  val Recall@10 0.8461
+    [switch] epoch 3  train NLL 3.3961  val Recall@10 0.8485
+    [switch] epoch 4  train NLL 3.3570  val Recall@10 0.8502
+    [switch] epoch 5  train NLL 3.3028  val Recall@10 0.8496
+    [switch] epoch 6  train NLL 3.2658  val Recall@10 0.8478
+    [switch] epoch 7  train NLL 3.2247  val Recall@10 0.8528
+    [switch] epoch 8  train NLL 3.1844  val Recall@10 0.8538
+    [switch] epoch 9  train NLL 3.1554  val Recall@10 0.8543
+    [switch] epoch 10  train NLL 3.1305  val Recall@10 0.8569
+    [switch] epoch 11  train NLL 3.1092  val Recall@10 0.8571
+    [switch] epoch 12  train NLL 3.0889  val Recall@10 0.8602
+    [switch] epoch 13  train NLL 3.0719  val Recall@10 0.8586
+    [switch] epoch 14  train NLL 3.0535  val Recall@10 0.8581
+    [switch] epoch 15  train NLL 3.0361  val Recall@10 0.8618
+    [switch] epoch 16  train NLL 3.0195  val Recall@10 0.8620
+    [switch] epoch 17  train NLL 3.0044  val Recall@10 0.8592
+    [switch] epoch 18  train NLL 2.9912  val Recall@10 0.8593
+    [switch] epoch 19  train NLL 2.9775  val Recall@10 0.8610
+    подобрано на val: {'tifu (tau, K, alpha)': (60.0, 50, 0.5), 'heur q': 10, 'heur thr': -1.0, 'nn/base epoch': 32, 'nn/switch epoch': 16, 'nn train sec': 836, 'nn q': 10, 'nn thr': -1.0}
+
+=== regime=mid seed=0: events 337476, train 326404, val users 3004, test users 3003
+    [base] epoch 1  train NLL 6.1814  val Recall@10 0.3502
+    [base] epoch 2  train NLL 5.5054  val Recall@10 0.4210
+    [base] epoch 3  train NLL 5.1839  val Recall@10 0.4524
+    [base] epoch 4  train NLL 5.0178  val Recall@10 0.4733
+    [base] epoch 5  train NLL 4.9103  val Recall@10 0.4908
+    [base] epoch 6  train NLL 4.8351  val Recall@10 0.4900
+    [base] epoch 7  train NLL 4.7785  val Recall@10 0.4998
+    [base] epoch 8  train NLL 4.7314  val Recall@10 0.5063
+    [base] epoch 9  train NLL 4.6892  val Recall@10 0.5138
+    [base] epoch 10  train NLL 4.6536  val Recall@10 0.5186
+    [base] epoch 11  train NLL 4.6207  val Recall@10 0.5256
+    [base] epoch 12  train NLL 4.5910  val Recall@10 0.5254
+    [base] epoch 13  train NLL 4.5673  val Recall@10 0.5300
+    [base] epoch 14  train NLL 4.5448  val Recall@10 0.5392
+    [base] epoch 15  train NLL 4.5234  val Recall@10 0.5403
+    [base] epoch 16  train NLL 4.5039  val Recall@10 0.5402
+    [base] epoch 17  train NLL 4.4875  val Recall@10 0.5429
+    [base] epoch 18  train NLL 4.4732  val Recall@10 0.5474
+    [base] epoch 19  train NLL 4.4595  val Recall@10 0.5407
+    [base] epoch 20  train NLL 4.4459  val Recall@10 0.5498
+    [base] epoch 21  train NLL 4.4353  val Recall@10 0.5502
+    [base] epoch 22  train NLL 4.4235  val Recall@10 0.5503
+    [base] epoch 23  train NLL 4.4114  val Recall@10 0.5549
+    [base] epoch 24  train NLL 4.4030  val Recall@10 0.5547
+    [base] epoch 25  train NLL 4.3943  val Recall@10 0.5576
+    [base] epoch 26  train NLL 4.3838  val Recall@10 0.5575
+    [base] epoch 27  train NLL 4.3778  val Recall@10 0.5597
+    [base] epoch 28  train NLL 4.3673  val Recall@10 0.5538
+    [base] epoch 29  train NLL 4.3607  val Recall@10 0.5609
+    [base] epoch 30  train NLL 4.3552  val Recall@10 0.5593
+    [base] epoch 31  train NLL 4.3504  val Recall@10 0.5594
+    [base] epoch 32  train NLL 4.3425  val Recall@10 0.5656
+    [base] epoch 33  train NLL 4.3363  val Recall@10 0.5592
+    [base] epoch 34  train NLL 4.3311  val Recall@10 0.5621
+    [base] epoch 35  train NLL 4.3266  val Recall@10 0.5610
+    [switch] epoch 1  train NLL 5.2139  val Recall@10 0.5557
+    [switch] epoch 2  train NLL 4.7725  val Recall@10 0.5773
+    [switch] epoch 3  train NLL 4.6119  val Recall@10 0.6027
+    [switch] epoch 4  train NLL 4.4660  val Recall@10 0.6076
+    [switch] epoch 5  train NLL 4.3872  val Recall@10 0.6210
+    [switch] epoch 6  train NLL 4.3340  val Recall@10 0.6319
+    [switch] epoch 7  train NLL 4.2966  val Recall@10 0.6327
+    [switch] epoch 8  train NLL 4.2677  val Recall@10 0.6376
+    [switch] epoch 9  train NLL 4.2449  val Recall@10 0.6331
+    [switch] epoch 10  train NLL 4.2236  val Recall@10 0.6366
+    [switch] epoch 11  train NLL 4.2091  val Recall@10 0.6461
+    [switch] epoch 12  train NLL 4.1933  val Recall@10 0.6411
+    [switch] epoch 13  train NLL 4.1806  val Recall@10 0.6398
+    [switch] epoch 14  train NLL 4.1692  val Recall@10 0.6398
+    подобрано на val: {'tifu (tau, K, alpha)': (60.0, 300, 0.5), 'heur q': 10, 'heur thr': -1.0, 'nn/base epoch': 32, 'nn/switch epoch': 11, 'nn train sec': 775, 'nn q': 6, 'nn thr': 0.2368821829557419}
+
+=== regime=low seed=0: events 295556, train 286668, val users 2636, test users 2652
+    [base] epoch 1  train NLL 6.3460  val Recall@10 0.3017
+    [base] epoch 2  train NLL 5.6483  val Recall@10 0.3325
+    [base] epoch 3  train NLL 5.3394  val Recall@10 0.3740
+    [base] epoch 4  train NLL 5.1642  val Recall@10 0.3890
+    [base] epoch 5  train NLL 5.0545  val Recall@10 0.3997
+    [base] epoch 6  train NLL 4.9817  val Recall@10 0.4146
+    [base] epoch 7  train NLL 4.9278  val Recall@10 0.4176
+    [base] epoch 8  train NLL 4.8819  val Recall@10 0.4220
+    [base] epoch 9  train NLL 4.8468  val Recall@10 0.4253
+    [base] epoch 10  train NLL 4.8152  val Recall@10 0.4262
+    [base] epoch 11  train NLL 4.7899  val Recall@10 0.4343
+    [base] epoch 12  train NLL 4.7647  val Recall@10 0.4364
+    [base] epoch 13  train NLL 4.7434  val Recall@10 0.4402
+    [base] epoch 14  train NLL 4.7244  val Recall@10 0.4410
+    [base] epoch 15  train NLL 4.7080  val Recall@10 0.4396
+    [base] epoch 16  train NLL 4.6928  val Recall@10 0.4447
+    [base] epoch 17  train NLL 4.6782  val Recall@10 0.4518
+    [base] epoch 18  train NLL 4.6651  val Recall@10 0.4469
+    [base] epoch 19  train NLL 4.6543  val Recall@10 0.4529
+    [base] epoch 20  train NLL 4.6424  val Recall@10 0.4524
+    [base] epoch 21  train NLL 4.6346  val Recall@10 0.4511
+    [base] epoch 22  train NLL 4.6244  val Recall@10 0.4549
+    [base] epoch 23  train NLL 4.6167  val Recall@10 0.4539
+    [base] epoch 24  train NLL 4.6069  val Recall@10 0.4587
+    [base] epoch 25  train NLL 4.5996  val Recall@10 0.4626
+    [base] epoch 26  train NLL 4.5915  val Recall@10 0.4636
+    [base] epoch 27  train NLL 4.5827  val Recall@10 0.4620
+    [base] epoch 28  train NLL 4.5769  val Recall@10 0.4585
+    [base] epoch 29  train NLL 4.5689  val Recall@10 0.4594
+    [switch] epoch 1  train NLL 5.6504  val Recall@10 0.4190
+    [switch] epoch 2  train NLL 5.1308  val Recall@10 0.4635
+    [switch] epoch 3  train NLL 4.8698  val Recall@10 0.4990
+    [switch] epoch 4  train NLL 4.6991  val Recall@10 0.5136
+    [switch] epoch 5  train NLL 4.6167  val Recall@10 0.5308
+    [switch] epoch 6  train NLL 4.5552  val Recall@10 0.5377
+    [switch] epoch 7  train NLL 4.5125  val Recall@10 0.5365
+    [switch] epoch 8  train NLL 4.4830  val Recall@10 0.5411
+    [switch] epoch 9  train NLL 4.4615  val Recall@10 0.5496
+    [switch] epoch 10  train NLL 4.4426  val Recall@10 0.5487
+    [switch] epoch 11  train NLL 4.4236  val Recall@10 0.5539
+    [switch] epoch 12  train NLL 4.4088  val Recall@10 0.5522
+    [switch] epoch 13  train NLL 4.3925  val Recall@10 0.5606
+    [switch] epoch 14  train NLL 4.3812  val Recall@10 0.5625
+    [switch] epoch 15  train NLL 4.3707  val Recall@10 0.5597
+    [switch] epoch 16  train NLL 4.3610  val Recall@10 0.5659
+    [switch] epoch 17  train NLL 4.3482  val Recall@10 0.5632
+    [switch] epoch 18  train NLL 4.3398  val Recall@10 0.5661
+    [switch] epoch 19  train NLL 4.3298  val Recall@10 0.5712
+    [switch] epoch 20  train NLL 4.3224  val Recall@10 0.5653
+    [switch] epoch 21  train NLL 4.3151  val Recall@10 0.5682
+    [switch] epoch 22  train NLL 4.3069  val Recall@10 0.5678
+    подобрано на val: {'tifu (tau, K, alpha)': (60.0, 300, 0.5), 'heur q': 10, 'heur thr': -1.0, 'nn/base epoch': 26, 'nn/switch epoch': 19, 'nn train sec': 749, 'nn q': 4, 'nn thr': 0.1955784484744072}
+
+# Результаты: protocol=window, window=7.0, seeds=[0]
+
+Тест; среднее ± std по сидам. Квота/порог/параметры TIFU подобраны на val.
+
+Доля повторов среди целей: high: 0.88, mid: 0.54, low: 0.37
+
+|                                | Recall@10     | NDCG@10       | Recall repeat   | Recall explore   | repeat slots   | wasted slots   | switch AUC    | switch Brier   |
+|:-------------------------------|:--------------|:--------------|:----------------|:-----------------|:---------------|:---------------|:--------------|:---------------|
+| ('high', 'pop')                | 0.383 ± 0.000 | 0.227 ± 0.000 | 0.422 ± 0.000   | 0.049 ± 0.000    | 0.310 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('high', 'freq+pop')           | 0.836 ± 0.000 | 0.611 ± 0.000 | 0.938 ± 0.000   | 0.000 ± 0.000    | 0.998 ± 0.000  | 1.731 ± 0.000  | —             | —              |
+| ('high', 'tifu-knn')           | 0.823 ± 0.000 | 0.615 ± 0.000 | 0.921 ± 0.000   | 0.026 ± 0.000    | 0.896 ± 0.000  | 1.434 ± 0.000  | —             | —              |
+| ('high', 'heur/base')          | 0.622 ± 0.000 | 0.422 ± 0.000 | 0.658 ± 0.000   | 0.170 ± 0.000    | 0.591 ± 0.000  | 0.001 ± 0.000  | —             | —              |
+| ('high', 'heur/fixed30')       | 0.514 ± 0.000 | 0.425 ± 0.000 | 0.509 ± 0.000   | 0.231 ± 0.000    | 0.299 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('high', 'heur/fixed-tuned')   | 0.845 ± 0.000 | 0.573 ± 0.000 | 0.941 ± 0.000   | 0.039 ± 0.000    | 0.897 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('high', 'heur/switch')        | 0.841 ± 0.000 | 0.568 ± 0.000 | 0.932 ± 0.000   | 0.068 ± 0.000    | 0.857 ± 0.000  | 0.000 ± 0.000  | 0.583 ± 0.000 | 0.083 ± 0.000  |
+| ('high', 'heur/route')         | 0.845 ± 0.000 | 0.573 ± 0.000 | 0.941 ± 0.000   | 0.039 ± 0.000    | 0.897 ± 0.000  | 0.000 ± 0.000  | 0.583 ± 0.000 | 0.083 ± 0.000  |
+| ('high', 'heur/oracle-switch') | 0.859 ± 0.000 | 0.582 ± 0.000 | 0.932 ± 0.000   | 0.178 ± 0.000    | 0.821 ± 0.000  | 0.002 ± 0.000  | —             | —              |
+| ('high', 'heur/oracle-quota')  | 0.854 ± 0.000 | 0.580 ± 0.000 | 0.921 ± 0.000   | 0.195 ± 0.000    | 0.802 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('high', 'nn/base')            | 0.796 ± 0.000 | 0.632 ± 0.000 | 0.861 ± 0.000   | 0.143 ± 0.000    | 0.665 ± 0.000  | 0.123 ± 0.000  | —             | —              |
+| ('high', 'nn/fixed30')         | 0.655 ± 0.000 | 0.586 ± 0.000 | 0.660 ± 0.000   | 0.258 ± 0.000    | 0.395 ± 0.000  | 0.284 ± 0.000  | —             | —              |
+| ('high', 'nn/fixed-tuned')     | 0.846 ± 0.000 | 0.675 ± 0.000 | 0.949 ± 0.000   | 0.003 ± 0.000    | 0.996 ± 0.000  | 1.337 ± 0.000  | —             | —              |
+| ('high', 'nn/switch')          | 0.859 ± 0.000 | 0.679 ± 0.000 | 0.944 ± 0.000   | 0.113 ± 0.000    | 0.822 ± 0.000  | 0.054 ± 0.000  | 0.682 ± 0.000 | 0.069 ± 0.000  |
+| ('high', 'nn/route')           | 0.846 ± 0.000 | 0.675 ± 0.000 | 0.949 ± 0.000   | 0.003 ± 0.000    | 0.996 ± 0.000  | 1.337 ± 0.000  | 0.682 ± 0.000 | 0.069 ± 0.000  |
+| ('high', 'nn/oracle-switch')   | 0.870 ± 0.000 | 0.689 ± 0.000 | 0.940 ± 0.000   | 0.200 ± 0.000    | 0.898 ± 0.000  | 1.071 ± 0.000  | —             | —              |
+| ('high', 'nn/oracle-quota')    | 0.870 ± 0.000 | 0.689 ± 0.000 | 0.937 ± 0.000   | 0.213 ± 0.000    | 0.893 ± 0.000  | 1.091 ± 0.000  | —             | —              |
+| ('mid', 'pop')                 | 0.295 ± 0.000 | 0.188 ± 0.000 | 0.508 ± 0.000   | 0.017 ± 0.000    | 0.270 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('mid', 'freq+pop')            | 0.543 ± 0.000 | 0.441 ± 0.000 | 0.968 ± 0.000   | 0.000 ± 0.000    | 1.000 ± 0.000  | 4.827 ± 0.000  | —             | —              |
+| ('mid', 'tifu-knn')            | 0.518 ± 0.000 | 0.443 ± 0.000 | 0.923 ± 0.000   | 0.002 ± 0.000    | 0.964 ± 0.000  | 5.326 ± 0.000  | —             | —              |
+| ('mid', 'heur/base')           | 0.437 ± 0.000 | 0.294 ± 0.000 | 0.708 ± 0.000   | 0.046 ± 0.000    | 0.506 ± 0.000  | 0.797 ± 0.000  | —             | —              |
+| ('mid', 'heur/fixed30')        | 0.450 ± 0.000 | 0.376 ± 0.000 | 0.695 ± 0.000   | 0.074 ± 0.000    | 0.286 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('mid', 'heur/fixed-tuned')    | 0.583 ± 0.000 | 0.437 ± 0.000 | 0.984 ± 0.000   | 0.048 ± 0.000    | 0.665 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('mid', 'heur/switch')         | 0.579 ± 0.000 | 0.432 ± 0.000 | 0.974 ± 0.000   | 0.052 ± 0.000    | 0.627 ± 0.000  | 0.000 ± 0.000  | 0.651 ± 0.000 | 0.196 ± 0.000  |
+| ('mid', 'heur/route')          | 0.583 ± 0.000 | 0.437 ± 0.000 | 0.984 ± 0.000   | 0.048 ± 0.000    | 0.665 ± 0.000  | 0.000 ± 0.000  | 0.651 ± 0.000 | 0.196 ± 0.000  |
+| ('mid', 'heur/oracle-switch')  | 0.589 ± 0.000 | 0.438 ± 0.000 | 0.960 ± 0.000   | 0.075 ± 0.000    | 0.476 ± 0.000  | 0.008 ± 0.000  | —             | —              |
+| ('mid', 'heur/oracle-quota')   | 0.581 ± 0.000 | 0.440 ± 0.000 | 0.934 ± 0.000   | 0.078 ± 0.000    | 0.443 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('mid', 'nn/base')             | 0.556 ± 0.000 | 0.466 ± 0.000 | 0.895 ± 0.000   | 0.096 ± 0.000    | 0.683 ± 0.000  | 2.598 ± 0.000  | —             | —              |
+| ('mid', 'nn/fixed30')          | 0.567 ± 0.000 | 0.477 ± 0.000 | 0.794 ± 0.000   | 0.233 ± 0.000    | 0.580 ± 0.000  | 2.720 ± 0.000  | —             | —              |
+| ('mid', 'nn/fixed-tuned')      | 0.606 ± 0.000 | 0.495 ± 0.000 | 0.942 ± 0.000   | 0.156 ± 0.000    | 0.788 ± 0.000  | 2.971 ± 0.000  | —             | —              |
+| ('mid', 'nn/switch')           | 0.634 ± 0.000 | 0.512 ± 0.000 | 0.955 ± 0.000   | 0.200 ± 0.000    | 0.690 ± 0.000  | 1.912 ± 0.000  | 0.738 ± 0.000 | 0.136 ± 0.000  |
+| ('mid', 'nn/route')            | 0.562 ± 0.000 | 0.480 ± 0.000 | 0.943 ± 0.000   | 0.057 ± 0.000    | 0.916 ± 0.000  | 3.869 ± 0.000  | 0.738 ± 0.000 | 0.136 ± 0.000  |
+| ('mid', 'nn/oracle-switch')    | 0.655 ± 0.000 | 0.535 ± 0.000 | 0.957 ± 0.000   | 0.235 ± 0.000    | 0.714 ± 0.000  | 2.983 ± 0.000  | —             | —              |
+| ('mid', 'nn/oracle-quota')     | 0.650 ± 0.000 | 0.532 ± 0.000 | 0.941 ± 0.000   | 0.235 ± 0.000    | 0.717 ± 0.000  | 3.187 ± 0.000  | —             | —              |
+| ('low', 'pop')                 | 0.260 ± 0.000 | 0.168 ± 0.000 | 0.664 ± 0.000   | 0.014 ± 0.000    | 0.220 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('low', 'freq+pop')            | 0.371 ± 0.000 | 0.322 ± 0.000 | 0.972 ± 0.000   | 0.000 ± 0.000    | 1.000 ± 0.000  | 6.890 ± 0.000  | —             | —              |
+| ('low', 'tifu-knn')            | 0.362 ± 0.000 | 0.329 ± 0.000 | 0.943 ± 0.000   | 0.003 ± 0.000    | 0.972 ± 0.000  | 6.975 ± 0.000  | —             | —              |
+| ('low', 'heur/base')           | 0.349 ± 0.000 | 0.250 ± 0.000 | 0.808 ± 0.000   | 0.053 ± 0.000    | 0.639 ± 0.000  | 3.524 ± 0.000  | —             | —              |
+| ('low', 'heur/fixed30')        | 0.434 ± 0.000 | 0.337 ± 0.000 | 0.797 ± 0.000   | 0.164 ± 0.000    | 0.218 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('low', 'heur/fixed-tuned')    | 0.492 ± 0.000 | 0.364 ± 0.000 | 0.996 ± 0.000   | 0.151 ± 0.000    | 0.416 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('low', 'heur/switch')         | 0.491 ± 0.000 | 0.360 ± 0.000 | 0.987 ± 0.000   | 0.153 ± 0.000    | 0.392 ± 0.000  | 0.000 ± 0.000  | 0.760 ± 0.000 | 0.179 ± 0.000  |
+| ('low', 'heur/route')          | 0.492 ± 0.000 | 0.364 ± 0.000 | 0.996 ± 0.000   | 0.151 ± 0.000    | 0.416 ± 0.000  | 0.000 ± 0.000  | 0.760 ± 0.000 | 0.179 ± 0.000  |
+| ('low', 'heur/oracle-switch')  | 0.504 ± 0.000 | 0.370 ± 0.000 | 0.981 ± 0.000   | 0.173 ± 0.000    | 0.279 ± 0.000  | 0.008 ± 0.000  | —             | —              |
+| ('low', 'heur/oracle-quota')   | 0.499 ± 0.000 | 0.373 ± 0.000 | 0.958 ± 0.000   | 0.175 ± 0.000    | 0.258 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('low', 'nn/base')             | 0.436 ± 0.000 | 0.359 ± 0.000 | 0.921 ± 0.000   | 0.124 ± 0.000    | 0.704 ± 0.000  | 4.224 ± 0.000  | —             | —              |
+| ('low', 'nn/fixed30')          | 0.511 ± 0.000 | 0.396 ± 0.000 | 0.871 ± 0.000   | 0.259 ± 0.000    | 0.566 ± 0.000  | 3.365 ± 0.000  | —             | —              |
+| ('low', 'nn/fixed-tuned')      | 0.512 ± 0.000 | 0.395 ± 0.000 | 0.923 ± 0.000   | 0.234 ± 0.000    | 0.638 ± 0.000  | 3.651 ± 0.000  | —             | —              |
+| ('low', 'nn/switch')           | 0.554 ± 0.000 | 0.438 ± 0.000 | 0.965 ± 0.000   | 0.269 ± 0.000    | 0.534 ± 0.000  | 2.292 ± 0.000  | 0.837 ± 0.000 | 0.111 ± 0.000  |
+| ('low', 'nn/route')            | 0.474 ± 0.000 | 0.403 ± 0.000 | 0.954 ± 0.000   | 0.145 ± 0.000    | 0.762 ± 0.000  | 4.479 ± 0.000  | 0.837 ± 0.000 | 0.111 ± 0.000  |
+| ('low', 'nn/oracle-switch')    | 0.570 ± 0.000 | 0.458 ± 0.000 | 0.960 ± 0.000   | 0.295 ± 0.000    | 0.559 ± 0.000  | 3.277 ± 0.000  | —             | —              |
+| ('low', 'nn/oracle-quota')     | 0.567 ± 0.000 | 0.456 ± 0.000 | 0.957 ± 0.000   | 0.289 ± 0.000    | 0.576 ± 0.000  | 3.448 ± 0.000  | —             | —              |
+
+
+## nn/switch минус конкурент (парный бутстрап, тест)
+
+CI — средние по сидам границы 95% интервала; последняя колонка — в скольких сидах интервал целиком выше нуля.
+
+|                                        |   diff |   ci_lo |   ci_hi | seeds_ci_above_0   |
+|:---------------------------------------|-------:|--------:|--------:|:-------------------|
+| ('high', 'heur/fixed-tuned', 'recall') | 0.0141 |  0.0076 |  0.0211 | 1/1                |
+| ('high', 'heur/fixed-tuned', 'ndcg')   | 0.1065 |  0.0978 |  0.1154 | 1/1                |
+| ('high', 'nn/base', 'recall')          | 0.0632 |  0.0542 |  0.0718 | 1/1                |
+| ('high', 'nn/base', 'ndcg')            | 0.0467 |  0.0402 |  0.0532 | 1/1                |
+| ('high', 'nn/fixed-tuned', 'recall')   | 0.0124 |  0.0079 |  0.0170 | 1/1                |
+| ('high', 'nn/fixed-tuned', 'ndcg')     | 0.0040 |  0.0023 |  0.0057 | 1/1                |
+| ('high', 'nn/route', 'recall')         | 0.0124 |  0.0079 |  0.0170 | 1/1                |
+| ('high', 'nn/route', 'ndcg')           | 0.0040 |  0.0023 |  0.0057 | 1/1                |
+| ('high', 'heur/switch', 'recall')      | 0.0182 |  0.0114 |  0.0255 | 1/1                |
+| ('high', 'heur/switch', 'ndcg')        | 0.1112 |  0.1027 |  0.1202 | 1/1                |
+| ('mid', 'heur/fixed-tuned', 'recall')  | 0.0510 |  0.0410 |  0.0610 | 1/1                |
+| ('mid', 'heur/fixed-tuned', 'ndcg')    | 0.0748 |  0.0663 |  0.0830 | 1/1                |
+| ('mid', 'nn/base', 'recall')           | 0.0777 |  0.0683 |  0.0870 | 1/1                |
+| ('mid', 'nn/base', 'ndcg')             | 0.0462 |  0.0401 |  0.0522 | 1/1                |
+| ('mid', 'nn/fixed-tuned', 'recall')    | 0.0274 |  0.0220 |  0.0332 | 1/1                |
+| ('mid', 'nn/fixed-tuned', 'ndcg')      | 0.0175 |  0.0146 |  0.0203 | 1/1                |
+| ('mid', 'nn/route', 'recall')          | 0.0724 |  0.0634 |  0.0814 | 1/1                |
+| ('mid', 'nn/route', 'ndcg')            | 0.0322 |  0.0274 |  0.0369 | 1/1                |
+| ('mid', 'heur/switch', 'recall')       | 0.0545 |  0.0443 |  0.0649 | 1/1                |
+| ('mid', 'heur/switch', 'ndcg')         | 0.0803 |  0.0719 |  0.0885 | 1/1                |
+| ('low', 'heur/fixed-tuned', 'recall')  | 0.0616 |  0.0492 |  0.0742 | 1/1                |
+| ('low', 'heur/fixed-tuned', 'ndcg')    | 0.0734 |  0.0650 |  0.0818 | 1/1                |
+| ('low', 'nn/base', 'recall')           | 0.1176 |  0.1052 |  0.1299 | 1/1                |
+| ('low', 'nn/base', 'ndcg')             | 0.0784 |  0.0707 |  0.0859 | 1/1                |
+| ('low', 'nn/fixed-tuned', 'recall')    | 0.0415 |  0.0337 |  0.0495 | 1/1                |
+| ('low', 'nn/fixed-tuned', 'ndcg')      | 0.0430 |  0.0384 |  0.0477 | 1/1                |
+| ('low', 'nn/route', 'recall')          | 0.0798 |  0.0707 |  0.0898 | 1/1                |
+| ('low', 'nn/route', 'ndcg')            | 0.0344 |  0.0299 |  0.0393 | 1/1                |
+| ('low', 'heur/switch', 'recall')       | 0.0630 |  0.0502 |  0.0758 | 1/1                |
+| ('low', 'heur/switch', 'ndcg')         | 0.0780 |  0.0694 |  0.0865 | 1/1                |
+
+
+## Подобранные на val параметры
+
+| regime   |   seed | tifu (tau, K, alpha)   |   heur q |   heur thr |   nn/base epoch |   nn/switch epoch |   nn train sec |   nn q |    nn thr |
+|:---------|-------:|:-----------------------|---------:|-----------:|----------------:|------------------:|---------------:|-------:|----------:|
+| high     |      0 | (60.0, 50, 0.5)        |       10 |         -1 |              32 |                16 |            836 |     10 | -1        |
+| mid      |      0 | (60.0, 300, 0.5)       |       10 |         -1 |              32 |                11 |            775 |      6 |  0.236882 |
+| low      |      0 | (60.0, 300, 0.5)       |       10 |         -1 |              26 |                19 |            749 |      4 |  0.195578 |

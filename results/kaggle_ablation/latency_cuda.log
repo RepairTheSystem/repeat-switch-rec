@@ -1,0 +1,22 @@
+device=cuda threads=2 test users=3074
+{'variant': 'nn/base', 'params': 203456, 'batch ms/user': 0.08471062914772523, 'online p50 ms': 2.56946550007342, 'online p95 ms': 2.7846108998119234, 'online p99 ms': 3.262349160099802}
+{'variant': 'nn/switch', 'params': 209729, 'batch ms/user': 0.1287471779439744, 'online p50 ms': 3.8038559998767596, 'online p95 ms': 4.142680800055132, 'online p99 ms': 4.483733089941778}
+{'variant': 'nn+mask/switch', 'params': 209729, 'batch ms/user': 0.11506894339625849, 'online p50 ms': 3.8414549999288283, 'online p95 ms': 4.199318199766822, 'online p99 ms': 4.614632509883449}
+{'variant': 'nn+mask+bias/switch', 'params': 211230, 'batch ms/user': 0.11404782400774194, 'online p50 ms': 3.8066729998718074, 'online p95 ms': 4.152435299920398, 'online p99 ms': 4.536122450213043}
+{'variant': 'nn+mask+null/switch', 'params': 209793, 'batch ms/user': 0.11376992778149328, 'online p50 ms': 3.951949000111199, 'online p95 ms': 4.367887200100995, 'online p99 ms': 5.999571080142231}
+{'variant': 'nn+mask+prior/switch', 'params': 209730, 'batch ms/user': 0.12075688028633826, 'online p50 ms': 4.01646149998669, 'online p95 ms': 4.363947600222673, 'online p99 ms': 4.716737210192149}
+{'variant': 'nn+mask+all/switch', 'params': 211295, 'batch ms/user': 0.11596042843202828, 'online p50 ms': 4.229619499938053, 'online p95 ms': 4.556971099918883, 'online p99 ms': 4.808159119770605}
+                     device  batch ms/user  ...  online p95 ms  online p99 ms
+variant                                     ...                              
+freq+pop               cuda          0.098  ...            NaN            NaN
+tifu-knn               cuda          0.367  ...            NaN            NaN
+heur/switch            cuda          0.242  ...            NaN            NaN
+nn/base                cuda          0.085  ...          2.785          3.262
+nn/switch              cuda          0.129  ...          4.143          4.484
+nn+mask/switch         cuda          0.115  ...          4.199          4.615
+nn+mask+bias/switch    cuda          0.114  ...          4.152          4.536
+nn+mask+null/switch    cuda          0.114  ...          4.368          6.000
+nn+mask+prior/switch   cuda          0.121  ...          4.364          4.717
+nn+mask+all/switch     cuda          0.116  ...          4.557          4.808
+
+[10 rows x 6 columns]

@@ -1,0 +1,29 @@
+{
+ "regimes": [
+  "high",
+  "mid",
+  "low"
+ ],
+ "seeds": [
+  0
+ ],
+ "n_users": 4000,
+ "protocol": "window",
+ "t_val": 351.0,
+ "t_test": 358.0,
+ "window": 7.0,
+ "gap": 0.0,
+ "k": 10,
+ "max_len": 50,
+ "dim": 64,
+ "layers": 2,
+ "max_epochs": 60,
+ "patience": 3,
+ "batch": 128,
+ "lr": null,
+ "lr_base": 0.001,
+ "lr_switch": 0.003,
+ "skip_nn": false,
+ "out": "results/prelim_seed0",
+ "device": "cpu"
+}

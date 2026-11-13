@@ -1,0 +1,2 @@
+regime,seed,"tifu (tau, K, alpha)",heur q,heur thr,nn/base epoch,nn/switch epoch,nn train sec,nn q,nn thr
+high,0,"(60.0, 50, 0.5)",10,-1.0,23,8,552,9,-1.0

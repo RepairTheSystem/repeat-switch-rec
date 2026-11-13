@@ -1,0 +1,91 @@
+
+=== regime=high seed=0: events 311545, train 300062, val users 3116, test users 3074
+    [base] epoch 1  train NLL 5.5883  val Recall@10 0.4259
+    [base] epoch 2  train NLL 4.5557  val Recall@10 0.5873
+    [base] epoch 3  train NLL 4.2212  val Recall@10 0.6396
+    [base] epoch 4  train NLL 4.0373  val Recall@10 0.6691
+    [base] epoch 5  train NLL 3.9155  val Recall@10 0.6903
+    [base] epoch 6  train NLL 3.8185  val Recall@10 0.7070
+    [base] epoch 7  train NLL 3.7387  val Recall@10 0.7218
+    [base] epoch 8  train NLL 3.6714  val Recall@10 0.7413
+    [base] epoch 9  train NLL 3.6178  val Recall@10 0.7468
+    [base] epoch 10  train NLL 3.5706  val Recall@10 0.7506
+    [base] epoch 11  train NLL 3.5310  val Recall@10 0.7612
+    [base] epoch 12  train NLL 3.4953  val Recall@10 0.7696
+    [base] epoch 13  train NLL 3.4650  val Recall@10 0.7721
+    [base] epoch 14  train NLL 3.4410  val Recall@10 0.7760
+    [base] epoch 15  train NLL 3.4142  val Recall@10 0.7818
+    [base] epoch 16  train NLL 3.3943  val Recall@10 0.7818
+    [base] epoch 17  train NLL 3.3737  val Recall@10 0.7856
+    [base] epoch 18  train NLL 3.3568  val Recall@10 0.7930
+    [base] epoch 19  train NLL 3.3424  val Recall@10 0.7924
+    [base] epoch 20  train NLL 3.3257  val Recall@10 0.7997
+    [base] epoch 21  train NLL 3.3146  val Recall@10 0.7988
+    [base] epoch 22  train NLL 3.2989  val Recall@10 0.8013
+    [base] epoch 23  train NLL 3.2887  val Recall@10 0.8058
+    [base] epoch 24  train NLL 3.2776  val Recall@10 0.8010
+    [base] epoch 25  train NLL 3.2674  val Recall@10 0.8058
+    [base] epoch 26  train NLL 3.2595  val Recall@10 0.8058
+    [switch] epoch 1  train NLL 3.6066  val Recall@10 0.8492
+    [switch] epoch 2  train NLL 3.4247  val Recall@10 0.8498
+    [switch] epoch 3  train NLL 3.3908  val Recall@10 0.8498
+    [switch] epoch 4  train NLL 3.3446  val Recall@10 0.8578
+    [switch] epoch 5  train NLL 3.2873  val Recall@10 0.8572
+    [switch] epoch 6  train NLL 3.2486  val Recall@10 0.8598
+    [switch] epoch 7  train NLL 3.2079  val Recall@10 0.8607
+    [switch] epoch 8  train NLL 3.1744  val Recall@10 0.8642
+    [switch] epoch 9  train NLL 3.1472  val Recall@10 0.8630
+    [switch] epoch 10  train NLL 3.1257  val Recall@10 0.8642
+    [switch] epoch 11  train NLL 3.1066  val Recall@10 0.8614
+    подобрано на val: {'tifu (tau, K, alpha)': (60.0, 50, 0.5), 'heur q': 10, 'heur thr': -1.0, 'nn/base epoch': 23, 'nn/switch epoch': 8, 'nn train sec': 552, 'nn q': 9, 'nn thr': -1.0}
+
+# Результаты: protocol=next, window=7.0, seeds=[0]
+
+Тест; среднее ± std по сидам. Квота/порог/параметры TIFU подобраны на val.
+
+Доля повторов среди целей: high: 0.88
+
+|                                | Recall@10     | NDCG@10       | Recall repeat   | Recall explore   | repeat slots   | wasted slots   | switch AUC    | switch Brier   |
+|:-------------------------------|:--------------|:--------------|:----------------|:-----------------|:---------------|:---------------|:--------------|:---------------|
+| ('high', 'pop')                | 0.382 ± 0.000 | 0.192 ± 0.000 | 0.428 ± 0.000   | 0.041 ± 0.000    | 0.310 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('high', 'freq+pop')           | 0.840 ± 0.000 | 0.527 ± 0.000 | 0.953 ± 0.000   | 0.000 ± 0.000    | 0.998 ± 0.000  | 1.731 ± 0.000  | —             | —              |
+| ('high', 'tifu-knn')           | 0.820 ± 0.000 | 0.524 ± 0.000 | 0.927 ± 0.000   | 0.030 ± 0.000    | 0.896 ± 0.000  | 1.434 ± 0.000  | —             | —              |
+| ('high', 'heur/base')          | 0.617 ± 0.000 | 0.362 ± 0.000 | 0.678 ± 0.000   | 0.172 ± 0.000    | 0.591 ± 0.000  | 0.001 ± 0.000  | —             | —              |
+| ('high', 'heur/fixed30')       | 0.555 ± 0.000 | 0.410 ± 0.000 | 0.598 ± 0.000   | 0.232 ± 0.000    | 0.299 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('high', 'heur/fixed-tuned')   | 0.853 ± 0.000 | 0.521 ± 0.000 | 0.962 ± 0.000   | 0.046 ± 0.000    | 0.897 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('high', 'heur/switch')        | 0.849 ± 0.000 | 0.519 ± 0.000 | 0.955 ± 0.000   | 0.068 ± 0.000    | 0.865 ± 0.000  | 0.000 ± 0.000  | 0.506 ± 0.000 | 0.115 ± 0.000  |
+| ('high', 'heur/route')         | 0.853 ± 0.000 | 0.521 ± 0.000 | 0.962 ± 0.000   | 0.046 ± 0.000    | 0.897 ± 0.000  | 0.000 ± 0.000  | 0.506 ± 0.000 | 0.115 ± 0.000  |
+| ('high', 'heur/oracle-switch') | 0.878 ± 0.000 | 0.538 ± 0.000 | 0.962 ± 0.000   | 0.262 ± 0.000    | 0.795 ± 0.000  | 0.001 ± 0.000  | —             | —              |
+| ('high', 'heur/oracle-quota')  | 0.878 ± 0.000 | 0.538 ± 0.000 | 0.962 ± 0.000   | 0.262 ± 0.000    | 0.795 ± 0.000  | 0.000 ± 0.000  | —             | —              |
+| ('high', 'nn/base')            | 0.793 ± 0.000 | 0.550 ± 0.000 | 0.879 ± 0.000   | 0.153 ± 0.000    | 0.662 ± 0.000  | 0.080 ± 0.000  | —             | —              |
+| ('high', 'nn/fixed30')         | 0.647 ± 0.000 | 0.503 ± 0.000 | 0.703 ± 0.000   | 0.235 ± 0.000    | 0.392 ± 0.000  | 0.223 ± 0.000  | —             | —              |
+| ('high', 'nn/fixed-tuned')     | 0.848 ± 0.000 | 0.578 ± 0.000 | 0.953 ± 0.000   | 0.068 ± 0.000    | 0.922 ± 0.000  | 0.883 ± 0.000  | —             | —              |
+| ('high', 'nn/switch')          | 0.857 ± 0.000 | 0.581 ± 0.000 | 0.959 ± 0.000   | 0.107 ± 0.000    | 0.845 ± 0.000  | 0.033 ± 0.000  | 0.578 ± 0.000 | 0.104 ± 0.000  |
+| ('high', 'nn/route')           | 0.848 ± 0.000 | 0.578 ± 0.000 | 0.962 ± 0.000   | 0.005 ± 0.000    | 0.996 ± 0.000  | 1.317 ± 0.000  | 0.578 ± 0.000 | 0.104 ± 0.000  |
+| ('high', 'nn/oracle-switch')   | 0.884 ± 0.000 | 0.598 ± 0.000 | 0.962 ± 0.000   | 0.306 ± 0.000    | 0.889 ± 0.000  | 1.147 ± 0.000  | —             | —              |
+| ('high', 'nn/oracle-quota')    | 0.884 ± 0.000 | 0.598 ± 0.000 | 0.962 ± 0.000   | 0.306 ± 0.000    | 0.889 ± 0.000  | 1.147 ± 0.000  | —             | —              |
+
+
+## nn/switch минус конкурент (парный бутстрап, тест)
+
+CI — средние по сидам границы 95% интервала; последняя колонка — в скольких сидах интервал целиком выше нуля.
+
+|                                        |   diff |   ci_lo |   ci_hi | seeds_ci_above_0   |
+|:---------------------------------------|-------:|--------:|--------:|:-------------------|
+| ('high', 'heur/fixed-tuned', 'recall') | 0.0046 | -0.0029 |  0.0120 | 0/1                |
+| ('high', 'heur/fixed-tuned', 'ndcg')   | 0.0596 |  0.0488 |  0.0696 | 1/1                |
+| ('high', 'nn/base', 'recall')          | 0.0644 |  0.0530 |  0.0751 | 1/1                |
+| ('high', 'nn/base', 'ndcg')            | 0.0312 |  0.0233 |  0.0387 | 1/1                |
+| ('high', 'nn/fixed-tuned', 'recall')   | 0.0094 |  0.0049 |  0.0140 | 1/1                |
+| ('high', 'nn/fixed-tuned', 'ndcg')     | 0.0030 |  0.0016 |  0.0045 | 1/1                |
+| ('high', 'nn/route', 'recall')         | 0.0091 |  0.0039 |  0.0143 | 1/1                |
+| ('high', 'nn/route', 'ndcg')           | 0.0029 |  0.0012 |  0.0046 | 1/1                |
+| ('high', 'heur/switch', 'recall')      | 0.0081 |  0.0003 |  0.0156 | 1/1                |
+| ('high', 'heur/switch', 'ndcg')        | 0.0618 |  0.0511 |  0.0719 | 1/1                |
+
+
+## Подобранные на val параметры
+
+| regime   |   seed | tifu (tau, K, alpha)   |   heur q |   heur thr |   nn/base epoch |   nn/switch epoch |   nn train sec |   nn q |   nn thr |
+|:---------|-------:|:-----------------------|---------:|-----------:|----------------:|------------------:|---------------:|-------:|---------:|
+| high     |      0 | (60.0, 50, 0.5)        |       10 |         -1 |              23 |                 8 |            552 |      9 |       -1 |

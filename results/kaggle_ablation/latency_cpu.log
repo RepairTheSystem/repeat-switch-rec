@@ -1,0 +1,22 @@
+device=cpu threads=2 test users=3074
+{'variant': 'nn/base', 'params': 203456, 'batch ms/user': 0.8254559128170658, 'online p50 ms': 2.5012600001446117, 'online p95 ms': 2.786160449727504, 'online p99 ms': 3.1909338400600946}
+{'variant': 'nn/switch', 'params': 209729, 'batch ms/user': 2.459356338971922, 'online p50 ms': 3.576837999844429, 'online p95 ms': 4.005213649884354, 'online p99 ms': 4.363261569824316}
+{'variant': 'nn+mask/switch', 'params': 209729, 'batch ms/user': 2.4416014684448464, 'online p50 ms': 3.792948999944201, 'online p95 ms': 4.093070899966733, 'online p99 ms': 4.297048160160557}
+{'variant': 'nn+mask+bias/switch', 'params': 211230, 'batch ms/user': 2.4237743119713504, 'online p50 ms': 3.740196500075399, 'online p95 ms': 4.065673050035912, 'online p99 ms': 4.574328640078416}
+{'variant': 'nn+mask+null/switch', 'params': 209793, 'batch ms/user': 2.321162511711093, 'online p50 ms': 3.8157355002113036, 'online p95 ms': 4.118929799938087, 'online p99 ms': 4.525269910022868}
+{'variant': 'nn+mask+prior/switch', 'params': 209730, 'batch ms/user': 2.5307343679244836, 'online p50 ms': 3.8542095001048438, 'online p95 ms': 4.217873149764273, 'online p99 ms': 4.7380278502214415}
+{'variant': 'nn+mask+all/switch', 'params': 211295, 'batch ms/user': 2.2807160299286315, 'online p50 ms': 3.7000889999490028, 'online p95 ms': 5.435353499956364, 'online p99 ms': 6.540368330029193}
+                     device  batch ms/user  ...  online p95 ms  online p99 ms
+variant                                     ...                              
+freq+pop                cpu          0.086  ...            NaN            NaN
+tifu-knn                cpu          0.356  ...            NaN            NaN
+heur/switch             cpu          0.237  ...            NaN            NaN
+nn/base                 cpu          0.825  ...          2.786          3.191
+nn/switch               cpu          2.459  ...          4.005          4.363
+nn+mask/switch          cpu          2.442  ...          4.093          4.297
+nn+mask+bias/switch     cpu          2.424  ...          4.066          4.574
+nn+mask+null/switch     cpu          2.321  ...          4.119          4.525
+nn+mask+prior/switch    cpu          2.531  ...          4.218          4.738
+nn+mask+all/switch      cpu          2.281  ...          5.435          6.540
+
+[10 rows x 6 columns]

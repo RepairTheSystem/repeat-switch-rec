@@ -1,0 +1,15 @@
+
+=== regime=high seed=0: events 311545, train 300062, val users 3116, test users 3074
+    [base] epoch 1  train NLL 5.5883  val Recall@10 0.4265
+    [base] epoch 2  train NLL 4.5557  val Recall@10 0.5866
+    [base] epoch 3  train NLL 4.2212  val Recall@10 0.6399
+    [base] epoch 4  train NLL 4.0373  val Recall@10 0.6701
+    [base] epoch 5  train NLL 3.9155  val Recall@10 0.6884
+    [base] epoch 6  train NLL 3.8185  val Recall@10 0.7067
+    [base] epoch 7  train NLL 3.7387  val Recall@10 0.7237
+    [base] epoch 8  train NLL 3.6714  val Recall@10 0.7394
+    [base] epoch 9  train NLL 3.6178  val Recall@10 0.7471
+    [base] epoch 10  train NLL 3.5706  val Recall@10 0.7497
+    [base] epoch 11  train NLL 3.5310  val Recall@10 0.7625
+    [base] epoch 12  train NLL 3.4953  val Recall@10 0.7689
+    [base] epoch 13  train NLL 3.4650  val Recall@10 0.7718
